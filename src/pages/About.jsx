@@ -70,7 +70,7 @@ const About = () => {
                         >See More<span className=' text-white text-2xl font-extrabold rounded-full '><BiChevronsRight/> </span>  </button>
                     </div>
 
-                    <div className='flex w-full overflow-x-scroll mt-8'>
+                    <div className='flex w-full mt-8'>
                       {arr.splice(index,1).map((ele,ind)=>(
                         <div key={ind} className='w-[300px] border-2 border-orange-500 p-4 rounded-3xl '>
                         <p>{ele.star}</p>

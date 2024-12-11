@@ -10,7 +10,7 @@ const Header = () => {
 
   return (
 
-    <nav className="fixed w-full z-10 bg-gradient-to-b from-[#060400ec] via-black to-tranperent  p-4">
+    <nav className="fixed w-full z-40 bg-gradient-to-b from-[#060400ec] via-black to-tranperent  p-4">
       <div className="container mx-auto flex justify-between items-center">
         
         <div className="flex-shrink-0 ">
@@ -33,7 +33,7 @@ const Header = () => {
       </div>
       {/* Mobile Menu Items */}
       {isOpen && (
-        <div className="md:hidden px-2 pt-2 pb-3 space-y-1 sm:px-3 uppercase tracking-widest">
+        <div className="md:hidden px-2 pt-2 pb-3 space-y-1 sm:px-3 uppercase tracking-widest bg-black">
           <a href="#home" className="block text-white px-3 py-2 rounded-md text-base font-medium">Home</a>
           <a href="#service" className="block text-white px-3 py-2 rounded-md text-base font-medium">About</a>
           <a href="#about" className="block text-white px-3 py-2 rounded-md text-base font-medium">Services</a>
